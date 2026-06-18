@@ -1,0 +1,17 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:uaa-db;DB_CLOSE_DELAY=-1
+    username: sa
+    password: 1234
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+
